@@ -12,8 +12,8 @@ public class TankMovement : MonoBehaviour
     public float rotateSpeed = 2.5f;
     [Range(1f, 4f)]
     public float speed = 2f;
-    [Range(2f, 4f)]
-    public float cannonRotateSpeed = 3.0f;
+    [Range(4f, 8f)]
+    public float cannonRotateSpeed = 6.0f;
 
     private string movementAxis;
     private string turnAxis;
@@ -59,7 +59,7 @@ public class TankMovement : MonoBehaviour
     private void FixedUpdate() {
         TankMove();
         TankTurn();
-        CannonTurn();
+    //    CannonTurn();
     }
 
     private void TankMove() {
@@ -74,7 +74,7 @@ public class TankMovement : MonoBehaviour
 
     private void CannonTurn()
     {
-        float turn = -cannonTurnValue * rotateSpeed;
+        float turn = -cannonTurnValue * cannonRotateSpeed;
         tankCannon.Rotate(Vector3.forward * turn);
     }
 }

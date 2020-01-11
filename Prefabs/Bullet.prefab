@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7167470333776062591}
   - component: {fileID: 2537887031902175879}
   - component: {fileID: -2204339727757614563}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65,7 +65,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.026850723, y: -0.026839256}
@@ -93,6 +93,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff41019e44cea8e41956765468607f3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxRecoilForce: 1
 --- !u!1 &2537887032779859203
 GameObject:
   m_ObjectHideFlags: 0
@@ -103,7 +104,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2537887032779859204}
   - component: {fileID: 2537887032779859205}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Bullet Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}

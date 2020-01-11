@@ -12,8 +12,8 @@ public class Shooting : MonoBehaviour
 
     private string firePlayer;
 
-    [Range(5f, 30f)]
-    public float bulletForce = 20f;
+    [Range(30f, 60f)]
+    public float bulletForce = 40f;
 
     void Start()
     {
@@ -40,5 +40,3 @@ public class Shooting : MonoBehaviour
         rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
     }
 }
-
-
