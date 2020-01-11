@@ -437,6 +437,60 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 487246905, guid: 350a4d319d38f044a81a468436da1402, type: 3}
+      propertyPath: m_Name
+      value: BorderB
+      objectReference: {fileID: 0}
+    - target: {fileID: 647874465, guid: 350a4d319d38f044a81a468436da1402, type: 3}
+      propertyPath: m_Name
+      value: BorderA
+      objectReference: {fileID: 0}
+    - target: {fileID: 664222457, guid: 350a4d319d38f044a81a468436da1402, type: 3}
+      propertyPath: rateOfCollapse
+      value: 0.0005
+      objectReference: {fileID: 0}
+    - target: {fileID: 664222457, guid: 350a4d319d38f044a81a468436da1402, type: 3}
+      propertyPath: collapsable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1769189275, guid: 350a4d319d38f044a81a468436da1402, type: 3}
+      propertyPath: rateOfCollapse
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1769189275, guid: 350a4d319d38f044a81a468436da1402, type: 3}
+      propertyPath: Code
+      value: WEST
+      objectReference: {fileID: 0}
+    - target: {fileID: 1769189275, guid: 350a4d319d38f044a81a468436da1402, type: 3}
+      propertyPath: collapsable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1835878978, guid: 350a4d319d38f044a81a468436da1402, type: 3}
+      propertyPath: rateOfCollapse
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1835878978, guid: 350a4d319d38f044a81a468436da1402, type: 3}
+      propertyPath: collapsable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1835878978, guid: 350a4d319d38f044a81a468436da1402, type: 3}
+      propertyPath: Code
+      value: EAST
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876248444, guid: 350a4d319d38f044a81a468436da1402, type: 3}
+      propertyPath: rateOfCollapse
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 2657475551588284893, guid: 350a4d319d38f044a81a468436da1402,
+        type: 3}
+      propertyPath: m_Name
+      value: DeathZoneEast
+      objectReference: {fileID: 0}
+    - target: {fileID: 2657475551654747142, guid: 350a4d319d38f044a81a468436da1402,
+        type: 3}
+      propertyPath: m_Name
+      value: DeathZoneWest
+      objectReference: {fileID: 0}
     - target: {fileID: 2657475552320273664, guid: 350a4d319d38f044a81a468436da1402,
         type: 3}
       propertyPath: m_Name
@@ -717,6 +771,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2537887031902175877, guid: 2ff9858004cf5be4b9daba6ac4288015,
         type: 3}
+    - target: {fileID: 8417874715602203525, guid: 48fd2b43a8d08d9448a54d90a8a4f3f3,
+        type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8417874715602203526, guid: 48fd2b43a8d08d9448a54d90a8a4f3f3,
         type: 3}
       propertyPath: m_SortingOrder
