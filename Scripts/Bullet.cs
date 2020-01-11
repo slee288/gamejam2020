@@ -30,7 +30,7 @@ public class Bullet : MonoBehaviour
     void TankRecoil(Collider2D tank)
     {
         tankRB = tank.attachedRigidbody;
-        Debug.Log(tankRB.velocity);
+        Debug.Log(tankRB);
 
     }
 }
