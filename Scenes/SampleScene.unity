@@ -299,6 +299,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &862136162 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8417874715514384082, guid: 48fd2b43a8d08d9448a54d90a8a4f3f3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1143543403}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1143543403
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -401,6 +407,22 @@ PrefabInstance:
       propertyPath: playerNumber
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8417874715602203524, guid: 48fd2b43a8d08d9448a54d90a8a4f3f3,
+        type: 3}
+      propertyPath: bulletForce
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8417874715602203524, guid: 48fd2b43a8d08d9448a54d90a8a4f3f3,
+        type: 3}
+      propertyPath: firePoint
+      value: 
+      objectReference: {fileID: 862136162}
+    - target: {fileID: 8417874715602203524, guid: 48fd2b43a8d08d9448a54d90a8a4f3f3,
+        type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 2537887031902175877, guid: 2ff9858004cf5be4b9daba6ac4288015,
+        type: 3}
     - target: {fileID: 8417874715602203526, guid: 48fd2b43a8d08d9448a54d90a8a4f3f3,
         type: 3}
       propertyPath: m_SortingOrder
@@ -423,6 +445,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48fd2b43a8d08d9448a54d90a8a4f3f3, type: 3}
+--- !u!4 &1259659267 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8417874715514384082, guid: 48fd2b43a8d08d9448a54d90a8a4f3f3,
+    type: 3}
+  m_PrefabInstance: {fileID: 8417874716354872632}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1356513540 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8417874715602203521, guid: 48fd2b43a8d08d9448a54d90a8a4f3f3,
@@ -553,6 +581,22 @@ PrefabInstance:
       propertyPath: playerNumber
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8417874715602203524, guid: 48fd2b43a8d08d9448a54d90a8a4f3f3,
+        type: 3}
+      propertyPath: bulletForce
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8417874715602203524, guid: 48fd2b43a8d08d9448a54d90a8a4f3f3,
+        type: 3}
+      propertyPath: firePoint
+      value: 
+      objectReference: {fileID: 1259659267}
+    - target: {fileID: 8417874715602203524, guid: 48fd2b43a8d08d9448a54d90a8a4f3f3,
+        type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 2537887031902175877, guid: 2ff9858004cf5be4b9daba6ac4288015,
+        type: 3}
     - target: {fileID: 8417874715602203526, guid: 48fd2b43a8d08d9448a54d90a8a4f3f3,
         type: 3}
       propertyPath: m_SortingOrder
