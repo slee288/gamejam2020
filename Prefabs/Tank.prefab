@@ -156,6 +156,7 @@ GameObject:
   - component: {fileID: 8417874715602203525}
   - component: {fileID: 8417874715602203524}
   - component: {fileID: 8417874715602203523}
+  - component: {fileID: 6282625012990017391}
   m_Layer: 0
   m_Name: Tank
   m_TagString: Untagged
@@ -301,3 +302,19 @@ MonoBehaviour:
   rotateSpeed: 3.02
   speed: 2.01
   cannonRotateSpeed: 3
+--- !u!58 &6282625012990017391
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8417874715602203521}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.13
