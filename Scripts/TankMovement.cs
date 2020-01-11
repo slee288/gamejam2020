@@ -64,6 +64,7 @@ public class TankMovement : MonoBehaviour
 
     private void TankMove() {
         tankRigidBody.velocity = transform.up * speed * Mathf.Clamp01(movementInputValue);
+        tankRigidBody.angularVelocity = 0;
     }
 
     private void TankTurn()

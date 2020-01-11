@@ -18,7 +18,7 @@ public class Bullet : MonoBehaviour
     {
         hitPoint = this.transform.position;
         Destroy(this.gameObject);
-        TankRecoil(other);
+        //TankRecoil(other);
         this.gameObject.SetActive(false);
     }
 
