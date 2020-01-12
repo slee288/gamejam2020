@@ -11,8 +11,8 @@ public class CameraFocus : MonoBehaviour
 
     private void Start()
     {
-        player1 = GameObject.Find("Player 1");
-        player2 = GameObject.Find("Player 2");
+        player1 = GameObject.Find("Player1");
+        player2 = GameObject.Find("Player2");
 
         //this.transform.position = new Vector3(0, 0, -12.5f);
     }
