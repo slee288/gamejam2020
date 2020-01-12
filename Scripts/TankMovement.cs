@@ -60,6 +60,9 @@ public class TankMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(currentTank.getInvincible()) 
+            Debug.Log(currentTank.getInvincible());
+
         movementInputValue = Input.GetAxisRaw(movementAxis);    // vertical
         turnInputValue = Input.GetAxisRaw(turnAxis);       // horizontal
         cannonTurnValue = Input.GetAxisRaw(cannonAxis);
