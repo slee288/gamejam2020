@@ -26,7 +26,7 @@ public class BoundaryKill : MonoBehaviour
         Tank[] players = GameObject.FindObjectsOfType<Tank>();
         foreach (Tank t in players)
         {
-            if (t.name == "Player 1")
+            if (t.name == "Player1")
             {
                 player1 = t;
             }
@@ -52,14 +52,64 @@ public class BoundaryKill : MonoBehaviour
             else if(Code == "WEST") this.transform.position = new Vector3(transform.position.x + rateOfCollapse, transform.position.y, transform.position.z);
         }
 
-        if(player1Timer < 1.0f)
+        if(player1.getHasFell())
         {
-            player1Timer += Time.deltaTime;
+            
+            // Disable player movement and shooting
+            player1.gameObject.GetComponent<TankMovement>().enabled = false;
+            player1.gameObject.GetComponent<Shooting>().enabled = false;
+
+            /* FALLING ANIMATION */
+            
+
+            if (player1Timer < 2.0f)
+            {
+                Debug.Log(player1Timer);
+                player1Timer += Time.deltaTime;
+            }
+            else
+            {
+                if(!player1.isDead())
+                {
+                    player1.transform.position = new Vector3(Random.Range(-11f, -3f), Random.Range(-5f, 5f), 0);
+                    player1.setAsFall(false);
+
+                    // Enable player movement and shooting
+                    player1.gameObject.GetComponent<TankMovement>().enabled = true;
+                    player1.gameObject.GetComponent<Shooting>().enabled = true;
+                }
+                player1Timer = 0f;
+            }  
         }
-        else
+        else if(player2.getHasFell())
         {
-            player1Timer = 0f;
-            player1.gameObject.SetActive(true);
+            // Disable player movement and shooting
+            player2.gameObject.GetComponent<TankMovement>().enabled = false;
+            player2.gameObject.GetComponent<Shooting>().enabled = false;
+
+            /* FALLING ANIMATION */
+
+
+            if (player2Timer < 2.0f)
+            {
+                Debug.Log(player1Timer);
+                player2Timer += Time.deltaTime;
+            }
+            else
+            {
+                if(!player2.isDead())
+                {
+                    player2.transform.position = new Vector3(Random.Range(3f, 11f), Random.Range(-5f, 5f), 0);
+                    player2.setAsFall(false);
+
+                    // Enable player movement and shooting
+                    player2.gameObject.GetComponent<TankMovement>().enabled = true;
+                    player2.gameObject.GetComponent<Shooting>().enabled = true;
+                }
+                
+
+                player2Timer = 0f;
+            }
         }
     }
 
@@ -93,19 +143,23 @@ public class BoundaryKill : MonoBehaviour
         {
             player1.decreaseLife();
             player1.setAsFall(true);
-            player1.gameObject.SetActive(false);
-            player1.gameObject.SetActive(true);
             if (player1.isDead())
             {
+                // Disable player movement and shooting
+                player1.gameObject.GetComponent<TankMovement>().enabled = false;
+                player1.gameObject.GetComponent<Shooting>().enabled = false;
                 Debug.Log("Player 2 Wins");
             }
         }
         else
         {
-            //Debug.Log(player2.getLife());
             player2.decreaseLife();
+            player2.setAsFall(true);
             if (player2.isDead())
             {
+                // Disable player movement and shooting
+                player2.gameObject.GetComponent<TankMovement>().enabled = false;
+                player2.gameObject.GetComponent<Shooting>().enabled = false;
                 Debug.Log("Player 1 Wins");
             }
         }

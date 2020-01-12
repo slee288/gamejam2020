@@ -39,7 +39,6 @@ public class Shooting : MonoBehaviour
         shootTimer += Time.deltaTime;
         if(Input.GetButtonDown(firePlayer))
         {
-            Debug.Log("Shoot");
             if (currentAmmo > 0 && shootTimer >= dps)
             {
                 shootTimer = 0f;

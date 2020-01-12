@@ -7,7 +7,7 @@ public class Tank : MonoBehaviour
     private bool isInvincible = false;
     private float invincibleTimer = 0f;
     private const float maxInvincibleTimer = 3f;
-    private int numLife = 3;
+    private int numLife = 2;
     private bool hasFell = false;
 
     private const float fallTime = 1.5f;

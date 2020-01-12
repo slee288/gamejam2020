@@ -27,16 +27,4 @@ public class TankInstantiate : MonoBehaviour
         Player1.gameObject.name = "Player 1";
         Player2.gameObject.name = "Player 2";
     }
-
-    public void InstantiatePlayerOne()
-    {
-        Tank Player1 = Instantiate(tankPrefab1,
-                                         new Vector3(Random.Range(-11f, -9f), Random.Range(-5f, 5f), 0),
-                                         Quaternion.Euler(0, 0, -90),
-                                         transform);
-
-        Player1.setInvincible(true);
-        Player1.gameObject.name = "Player 1";
-
-    }
 }
