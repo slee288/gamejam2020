@@ -1,0 +1,919 @@
+fileFormatVersion: 2
+guid: dbacda7ff7c1ec042a9b9e491cba2fc2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7365921693905541150
+    second: invincible_bonchae_0
+  - first:
+      213: 4927037672684277918
+    second: invincible_bonchae_1
+  - first:
+      213: 9047645401062103758
+    second: invincible_bonchae_2
+  - first:
+      213: -1225790293245269171
+    second: invincible_bonchae_3
+  - first:
+      213: 189668509043317716
+    second: invincible_bonchae_4
+  - first:
+      213: 1780494874573857642
+    second: invincible_bonchae_5
+  - first:
+      213: 1216290345039543472
+    second: invincible_bonchae_6
+  - first:
+      213: -1249359567273832158
+    second: invincible_bonchae_7
+  - first:
+      213: 4895703956000165249
+    second: invincible_bonchae_8
+  - first:
+      213: 8111620754014211574
+    second: invincible_bonchae_9
+  - first:
+      213: -3222989274869657349
+    second: invincible_bonchae_10
+  - first:
+      213: 5728034621894150576
+    second: invincible_bonchae_11
+  - first:
+      213: -4524668344983246288
+    second: invincible_bonchae_12
+  - first:
+      213: 7320602334965509552
+    second: invincible_bonchae_13
+  - first:
+      213: 2920429409184458264
+    second: invincible_bonchae_14
+  - first:
+      213: -7393761435078538260
+    second: invincible_bonchae_15
+  - first:
+      213: 4611371900176774663
+    second: invincible_bonchae_16
+  - first:
+      213: -1253777260324930767
+    second: invincible_bonchae_17
+  - first:
+      213: -4366879610878076850
+    second: invincible_bonchae_18
+  - first:
+      213: 6085297916585713884
+    second: invincible_bonchae_19
+  - first:
+      213: 775227251103124788
+    second: invincible_bonchae_20
+  - first:
+      213: -5595028589271161402
+    second: invincible_bonchae_21
+  - first:
+      213: -1425860900182221605
+    second: invincible_bonchae_22
+  - first:
+      213: -2015310228219295713
+    second: invincible_bonchae_23
+  - first:
+      213: 8876130955052626657
+    second: invincible_bonchae_24
+  - first:
+      213: 879819579541445450
+    second: invincible_bonchae_25
+  - first:
+      213: 1088267190061752545
+    second: invincible_bonchae_26
+  - first:
+      213: -7294738314809029836
+    second: invincible_bonchae_27
+  - first:
+      213: 1098342581155484504
+    second: invincible_bonchae_28
+  - first:
+      213: 7565006256545034076
+    second: bonchae_invincible_1
+  - first:
+      213: 7866373671156263484
+    second: bonchae_invincible_2
+  - first:
+      213: 7393246432726537117
+    second: bonchae_invincible_3
+  - first:
+      213: -2978860936736894650
+    second: bonchae_invincible_4
+  - first:
+      213: 428664907848286669
+    second: bonchae_invincible_5
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: invincible_bonchae_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 9
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe335cae78ab8c3408fd753a371a215f
+      internalID: 7365921693905541150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 9
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3fd2aad462ffe4290c6dc08d48047a
+      internalID: 4927037672684277918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 9
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e462828e6b2174196bba857bf01bac
+      internalID: 9047645401062103758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 9
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad4afa75b5792c4ba1806cac73d8bdb
+      internalID: -1225790293245269171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_4
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 11
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedc0925f9102b0429c49b31a56b5103
+      internalID: 189668509043317716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_5
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 4
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7683792a544be654d954e032d896c3ca
+      internalID: 1780494874573857642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_6
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 4
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb0e060d44cd444fa0e2b16ef879f8a
+      internalID: 1216290345039543472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_7
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 4
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0321a3af49ea27047936693a58bfa0a8
+      internalID: -1249359567273832158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_8
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 4
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4bd2bcae00e9447b7a8b038a56c13a
+      internalID: 4895703956000165249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_9
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 5
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfc714e4f9d88f4897558f2684b98f6
+      internalID: 8111620754014211574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_10
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 5
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879d67f65a8efcb4a9551383ff9bb425
+      internalID: -3222989274869657349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_11
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 5
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f47872a75035f46af1465ad59d6c88
+      internalID: 5728034621894150576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_12
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 5
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc063dafeafe2e45a8e5129a9d01f98
+      internalID: -4524668344983246288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_13
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 5
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4122b3eaed69c1b40abac1065ba5e027
+      internalID: 7320602334965509552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_14
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 5
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963107b50f200044c8b95bf9b788e4b1
+      internalID: 2920429409184458264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_15
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 5
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72cc49f0921914c4f9566279674b8e20
+      internalID: -7393761435078538260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_16
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 5
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d83dfbc53217a4590a8596b793d07f
+      internalID: 4611371900176774663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_17
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 5
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56747a19d480f854c9d4e1417c2bd525
+      internalID: -1253777260324930767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_18
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 5
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71767e4fb088aad49ab9b45014f6bb36
+      internalID: -4366879610878076850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_19
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 5
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d413cb84387edc45a4b51189913635e
+      internalID: 6085297916585713884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_20
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 5
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f45db6f8356524a9c1e30c8667f02d
+      internalID: 775227251103124788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_21
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 8
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0a622e87ba1fb4e8c67fcdbc684ae1
+      internalID: -5595028589271161402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_22
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 8
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a828e4b38eb11469eb258dc13c7d38
+      internalID: -1425860900182221605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_23
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 8
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8f498b9ae925c458a877c40f9472b5
+      internalID: -2015310228219295713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_24
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 8
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72b4918f7be0ba4c83b10a6b68cdc36
+      internalID: 8876130955052626657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_25
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 8
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7f64888bd849247a9b206698e1a9f7
+      internalID: 879819579541445450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_26
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 8
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034c045b19e4c744bb52260035c72282
+      internalID: 1088267190061752545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_27
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 8
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514fdd60adb2de54e9e3ec828eb2e607
+      internalID: -7294738314809029836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: invincible_bonchae_28
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 8
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f829bea41e2b7bf4d9967e58a399c467
+      internalID: 1098342581155484504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonchae_invincible_1
+      rect:
+        serializedVersion: 2
+        x: 3610
+        y: 9
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05271f00af83114883c879999dbc71e
+      internalID: 7565006256545034076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonchae_invincible_2
+      rect:
+        serializedVersion: 2
+        x: 3660
+        y: 9
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a45ab454d3960847b627292801bbab7
+      internalID: 7866373671156263484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonchae_invincible_3
+      rect:
+        serializedVersion: 2
+        x: 3710
+        y: 9
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db36e3dae1a1d0a4285971fd089a52d4
+      internalID: 7393246432726537117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonchae_invincible_4
+      rect:
+        serializedVersion: 2
+        x: 3760
+        y: 9
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a85f1a339ebcb24080c3dd645ae9686
+      internalID: -2978860936736894650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonchae_invincible_5
+      rect:
+        serializedVersion: 2
+        x: 3810
+        y: 9
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80b4e016c8a8564a89217e1daffda95
+      internalID: 428664907848286669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

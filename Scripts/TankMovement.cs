@@ -5,6 +5,8 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class TankMovement : MonoBehaviour
 {
+    public Tank currentTank;
+
     [Range(1, 2)]
     public int playerNumber = 1;
 
@@ -90,10 +92,16 @@ public class TankMovement : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other)
     {
-        if(other.gameObject.tag == "Bullet")
+        if(currentTank.getInvincible() == false)
         {
-            tankCollided = true;
-        }   
+            if (other.gameObject.tag == "Bullet")
+            {
+                Debug.Log("Hit");
+                tankCollided = true;
+            }
+        }
+
+        
     }
 
 

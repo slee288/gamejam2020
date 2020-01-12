@@ -21,10 +21,11 @@ public class Bullet : MonoBehaviour
         {
             bulletRB = this.GetComponent<Rigidbody2D>();
             bulletDirection = bulletRB.velocity;
-            Destroy(this.gameObject);
-            this.gameObject.SetActive(false);
         }
-      
+
+        Destroy(this.gameObject);
+        this.gameObject.SetActive(false);
+
     }
 
 }
