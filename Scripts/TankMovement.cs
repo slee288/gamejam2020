@@ -101,6 +101,11 @@ public class TankMovement : MonoBehaviour
             }
         }
 
+        if(other.gameObject.tag == "Shield")
+        {
+            currentTank.setInvincible(true);
+        }
+
         
     }
 

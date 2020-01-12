@@ -35,20 +35,21 @@ public class Shooting : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        shootTimer += Time.deltaTime;
+        //shootTimer += Time.deltaTime;
         if(Input.GetButtonDown(firePlayer))
         {
-            if (currentAmmo > 0 && shootTimer >= dps)
-            {
-                shootTimer = 0f;
+            //Debug.Log("Shoot");
+            //if (currentAmmo > 0 && shootTimer >= dps)
+            //{
+                //shootTimer = 0f;
                 Shoot();
-            }
+            //}
         }
 
-        if(currentAmmo < maxAmmo)
-        {
-            Reload();
-        }
+        //if(currentAmmo < maxAmmo)
+        //{
+        //    Reload();
+        //}
     }
 
     // Shooting action

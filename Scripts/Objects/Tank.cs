@@ -35,9 +35,9 @@ public class Tank : MonoBehaviour
 
     private void Update()
     {
-        if(isInvincible)
+        if (isInvincible)
         {
-            invincibleTimer += Time.deltaTime;
+            this.runInvincTimer();
             if(invincibleTimer > maxInvincibleTimer)
             {
                 this.resetInvincTimer();
