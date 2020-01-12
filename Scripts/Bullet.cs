@@ -11,49 +11,20 @@ public class Bullet : MonoBehaviour
     public float maxRecoil = 1.0f;
 
     private Rigidbody2D bulletRB;
-    //private Rigidbody2D tankRB;
-
-    //private bool collided = false;
-    //private float timer = 0f;
 
     public static Vector2 bulletDirection;
 
     // Gathering information about what happened in this collision
     void OnCollisionEnter2D(Collision2D other)
     {
-        //bulletRB = this.gameObject.GetComponent<Rigidbody2D>();
-        //tankRB = other.rigidbody;
-
-        //tankRB.velocity = Vector2.ClampMagnitude(-bulletRB.velocity, maxRecoil);
-        //collided = true;
-        bulletRB = this.GetComponent<Rigidbody2D>();
-        bulletDirection = bulletRB.velocity;
-        Destroy(this.gameObject);
-        this.gameObject.SetActive(false);
-    }
-
-    /*
-    void Update()
-    {
-        TankRecoil();
-    }
-
-    void TankRecoil()
-    {
-        if(collided == true)
+        if(other.gameObject.tag == "Tank")
         {
-            Debug.Log(timer);
-            if (timer <= 2f)
-            {
-                timer += Time.deltaTime;
-                tankRB.AddForce(tankRB.velocity * 10f);
-            }
-            else
-            {
-                collided = false;
-                timer = 0f;
-            }
+            bulletRB = this.GetComponent<Rigidbody2D>();
+            bulletDirection = bulletRB.velocity;
+            Destroy(this.gameObject);
+            this.gameObject.SetActive(false);
         }
+      
     }
-    */
+
 }

@@ -72,6 +72,7 @@ public class TankMovement : MonoBehaviour
 
     private void TankMove() {
         tankRigidBody.velocity = transform.up * speed * Mathf.Clamp01(movementInputValue);
+        tankRigidBody.angularVelocity = 0;
     }
 
     private void TankTurn()
@@ -85,15 +86,18 @@ public class TankMovement : MonoBehaviour
         float turn = -cannonTurnValue * cannonRotateSpeed;
         tankCannon.Rotate(Vector3.forward * turn);
     }
-    
-    
+
+
     void OnCollisionEnter2D(Collision2D other)
     {
-        tankCollided = true;
+        if(other.gameObject.tag == "Bullet")
+        {
+            tankCollided = true;
+        }   
     }
-    
-    
-    
+
+
+
     private void TankRecoil()
     {
         if(tankCollided == true)
@@ -102,7 +106,7 @@ public class TankMovement : MonoBehaviour
             {
                 timer += Time.deltaTime;
                 tankRigidBody.AddForce(Vector2.ClampMagnitude(Bullet.bulletDirection, tankRecoil) * 10f);
-                
+
             }
             else
             {
@@ -111,5 +115,5 @@ public class TankMovement : MonoBehaviour
             }
         }
     }
-    
+
 }

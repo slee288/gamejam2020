@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6967769978409564966}
   - component: {fileID: 7888705046388804138}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cannon Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25,8 +25,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3681476657108591206}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.12, z: 0}
-  m_LocalScale: {x: 0.4, y: 2, z: 1}
+  m_LocalPosition: {x: 0, y: 0.05, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5513588331159832546}
   m_RootOrder: 0
@@ -66,10 +66,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -83248555
+  m_SortingLayerID: -1384296951
   m_SortingLayer: 1
   m_SortingOrder: 1
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 8b2d1e940df9df146ae23f9358e0d0bc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -89,7 +89,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5513588331159832546}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cannon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121,7 +121,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8417874715514384082}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -157,9 +157,9 @@ GameObject:
   - component: {fileID: 8417874715602203524}
   - component: {fileID: 8417874715602203523}
   - component: {fileID: 6282625012990017391}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tank
-  m_TagString: Untagged
+  m_TagString: Tank
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -194,7 +194,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage: 
+  m_WarningMessage:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -233,10 +233,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -83248555
+  m_SortingLayerID: -1384296951
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 8795336066337888443, guid: 741ff464ed8e9364b8ccf84a16c503c0,
+  m_Sprite: {fileID: -9176122009169712612, guid: 741ff464ed8e9364b8ccf84a16c503c0,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -279,12 +279,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c784475260ce956409713985d8d90e81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerNumber: 1
-  firePoint: {fileID: 0}
-  bulletPrefab: {fileID: 0}
-  bulletForce: 30
+  m_Name:
+  m_EditorClassIdentifier:
+  playerNumber: 2
+  firePoint: {fileID: 8417874715514384082}
+  bulletPrefab: {fileID: 2537887031902175877, guid: 2ff9858004cf5be4b9daba6ac4288015,
+    type: 3}
+  bulletForce: 50
 --- !u!114 &8417874715602203523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -295,12 +296,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 167cafd49eb1c544b9e7fa9b946aed1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   playerNumber: 2
-  rotateSpeed: 3.02
-  speed: 2.01
-  cannonRotateSpeed: 3
+  rotateSpeed: 3
+  speed: 2
+  cannonRotateSpeed: 4
 --- !u!58 &6282625012990017391
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -310,7 +311,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 8417874715602203521}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: faa7d1ba9d647e34dad550f3f52ebf92, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
