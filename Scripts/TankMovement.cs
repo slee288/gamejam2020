@@ -19,6 +19,10 @@ public class TankMovement : MonoBehaviour
     [Range(0f, 1f)]
     public float tankRecoil = 0.5f;
 
+    public Animator explosion;
+    public Animator topDamaged;
+    public Animator bottomDamaged;
+
 
     private float timer = 0f;
     private bool tankCollided = false;
@@ -60,7 +64,7 @@ public class TankMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(currentTank.getInvincible()) 
+        if(currentTank.getInvincible())
             Debug.Log(currentTank.getInvincible());
 
         movementInputValue = Input.GetAxisRaw(movementAxis);    // vertical
@@ -99,7 +103,9 @@ public class TankMovement : MonoBehaviour
         {
             if (other.gameObject.tag == "Bullet")
             {
-                Debug.Log("Hit");
+                explosion.Play("explode", 0, 0.2f);
+                topDamaged.Play("cannon_damaged", 0, 0.85f);
+                bottomDamaged.Play("tank_damaged", 0, 0.1f);
                 tankCollided = true;
             }
         }
@@ -109,7 +115,7 @@ public class TankMovement : MonoBehaviour
             currentTank.setInvincible(true);
         }
 
-        
+
     }
 
 

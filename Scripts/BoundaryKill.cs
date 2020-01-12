@@ -8,6 +8,11 @@ public class BoundaryKill : MonoBehaviour
     public float rateOfCollapse = 0.025f;
     public string Code;
 
+    public Animator top1Anim;
+    public Animator top2Anim;
+    public Animator bot1Anim;
+    public Animator bot2Anim;
+
     public Tank player1;
     public Tank player2;
 
@@ -64,6 +69,20 @@ public class BoundaryKill : MonoBehaviour
         {
             winningCondition(collision.gameObject);
             Debug.Log(collision.gameObject.name + " has fallen");
+        }
+
+        if (collision.gameObject.name == "Player1")
+        {
+
+            top1Anim.SetBool("c_Dead", true);
+            bot1Anim.SetBool("Dead", true);
+
+        }
+        else if (collision.gameObject.name == "Player2")
+        {
+            top2Anim.SetBool("c_Dead", true);
+            bot2Anim.SetBool("Dead", true);
+
         }
     }
 
