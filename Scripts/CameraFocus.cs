@@ -4,9 +4,18 @@ using UnityEngine;
 
 public class CameraFocus : MonoBehaviour
 {
-
     public GameObject player1, player2;
     public float camZoomCoefficient = 0.35f;
+
+    private float timer = 0f;
+
+    private void Start()
+    {
+        player1 = GameObject.Find("Player 1");
+        player2 = GameObject.Find("Player 2");
+
+        //this.transform.position = new Vector3(0, 0, -12.5f);
+    }
 
     private void Update()
     {
