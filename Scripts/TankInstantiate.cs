@@ -14,10 +14,12 @@ public class TankInstantiate : MonoBehaviour
     {
         Tank Player1 = Instantiate(tankPrefab1,
                                          new Vector3(Random.Range(-11f, -9f), Random.Range(-5f, 5f), 0),
-                                         Quaternion.Euler(0, 0, -90));
+                                         Quaternion.Euler(0, 0, -90),
+                                         transform);
         Tank Player2 = Instantiate(tankPrefab2,
                                          new Vector3(Random.Range(9f, 11f), Random.Range(-5f, 5f), 0),
-                                         Quaternion.Euler(0, 0, 90));
+                                         Quaternion.Euler(0, 0, 90),
+                                         transform);
 
         Player1.setInvincible(true);
         Player2.setInvincible(true);
@@ -26,10 +28,15 @@ public class TankInstantiate : MonoBehaviour
         Player2.gameObject.name = "Player 2";
     }
 
-    // Start is called before the first frame update
-    void Start()
+    public void InstantiatePlayerOne()
     {
+        Tank Player1 = Instantiate(tankPrefab1,
+                                         new Vector3(Random.Range(-11f, -9f), Random.Range(-5f, 5f), 0),
+                                         Quaternion.Euler(0, 0, -90),
+                                         transform);
 
-        //cannonInvinc.SetBool("dead", true);
+        Player1.setInvincible(true);
+        Player1.gameObject.name = "Player 1";
+
     }
 }
