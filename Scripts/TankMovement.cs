@@ -14,7 +14,14 @@ public class TankMovement : MonoBehaviour
     public float speed = 2f;
     [Range(4f, 8f)]
     public float cannonRotateSpeed = 6.0f;
+    [Range(0f, 1f)]
+    public float tankRecoil = 0.5f;
 
+
+    private float timer = 0f;
+    private bool tankCollided = false;
+
+    private Vector2 currentVelocity;
     private string movementAxis;
     private string turnAxis;
     private string cannonAxis;
@@ -54,12 +61,13 @@ public class TankMovement : MonoBehaviour
         movementInputValue = Input.GetAxisRaw(movementAxis);    // vertical
         turnInputValue = Input.GetAxisRaw(turnAxis);       // horizontal
         cannonTurnValue = Input.GetAxisRaw(cannonAxis);
-    }
 
-    private void FixedUpdate() {
+
         TankMove();
         TankTurn();
         CannonTurn();
+
+        TankRecoil();
     }
 
     private void TankMove() {
@@ -77,4 +85,31 @@ public class TankMovement : MonoBehaviour
         float turn = -cannonTurnValue * cannonRotateSpeed;
         tankCannon.Rotate(Vector3.forward * turn);
     }
+    
+    
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        tankCollided = true;
+    }
+    
+    
+    
+    private void TankRecoil()
+    {
+        if(tankCollided == true)
+        {
+            if(timer <= 0.2f)
+            {
+                timer += Time.deltaTime;
+                tankRigidBody.AddForce(Vector2.ClampMagnitude(Bullet.bulletDirection, tankRecoil) * 10f);
+                
+            }
+            else
+            {
+                tankCollided = false;
+                timer = 0f;
+            }
+        }
+    }
+    
 }

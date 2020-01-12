@@ -5,31 +5,55 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Bullet : MonoBehaviour
 {
-    Vector2 hitPoint;
+    Vector2 bulletDir;
 
-    [Range(1f, 3f)]
-    public float maxRecoilForce = 1f;
+    [Range(0f, 2f)]
+    public float maxRecoil = 1.0f;
 
     private Rigidbody2D bulletRB;
-    private Rigidbody2D tankRB;
+    //private Rigidbody2D tankRB;
+
+    //private bool collided = false;
+    //private float timer = 0f;
+
+    public static Vector2 bulletDirection;
 
     // Gathering information about what happened in this collision
-    void OnTriggerEnter2D(Collider2D other)
+    void OnCollisionEnter2D(Collision2D other)
     {
-        hitPoint = this.transform.position;
+        //bulletRB = this.gameObject.GetComponent<Rigidbody2D>();
+        //tankRB = other.rigidbody;
+
+        //tankRB.velocity = Vector2.ClampMagnitude(-bulletRB.velocity, maxRecoil);
+        //collided = true;
+        bulletRB = this.GetComponent<Rigidbody2D>();
+        bulletDirection = bulletRB.velocity;
         Destroy(this.gameObject);
-        TankRecoil(other);
         this.gameObject.SetActive(false);
     }
 
+    /*
     void Update()
     {
-        bulletRB = this.GetComponent<Rigidbody2D>();
+        TankRecoil();
     }
 
-    void TankRecoil(Collider2D tank)
+    void TankRecoil()
     {
-        tankRB = tank.attachedRigidbody;
-        Debug.Log(tankRB.velocity);
+        if(collided == true)
+        {
+            Debug.Log(timer);
+            if (timer <= 2f)
+            {
+                timer += Time.deltaTime;
+                tankRB.AddForce(tankRB.velocity * 10f);
+            }
+            else
+            {
+                collided = false;
+                timer = 0f;
+            }
+        }
     }
+    */
 }

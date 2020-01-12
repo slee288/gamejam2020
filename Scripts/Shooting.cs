@@ -12,7 +12,7 @@ public class Shooting : MonoBehaviour
 
     private string firePlayer;
 
-    [Range(30f, 60f)]
+    [Range(0f, 60f)]
     public float bulletForce = 40f;
 
     void Start()
